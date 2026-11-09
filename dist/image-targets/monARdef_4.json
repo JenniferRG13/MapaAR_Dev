@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 562,
+    "width": 3375,
+    "height": 4501,
+    "isRotated": false,
+    "originalWidth": 4501,
+    "originalHeight": 4501
+  },
+  "imagePath": "image-targets/monARdef_4_luminance.jpg",
+  "metadata": null,
+  "name": "monARdef_4",
+  "resources": {
+    "originalImage": "monARdef_4_original.jpg",
+    "croppedImage": "monARdef_4_cropped.jpg",
+    "thumbnailImage": "monARdef_4_thumbnail.jpg",
+    "luminanceImage": "monARdef_4_luminance.jpg"
+  },
+  "created": 1794248187951,
+  "updated": 1794248187951
+}

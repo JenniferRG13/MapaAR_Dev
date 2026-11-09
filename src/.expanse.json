@@ -91,10 +91,10 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "8d798322-8781-40bf-bf68-7fa8532cba5e": {
-      "id": "8d798322-8781-40bf-bf68-7fa8532cba5e",
+    "7a28ea4b-ff2b-488e-b5c2-59576b57bbb6": {
+      "id": "7a28ea4b-ff2b-488e-b5c2-59576b57bbb6",
       "position": [
-        -1.1462217882439525,
+        0,
         0,
         0
       ],
@@ -113,16 +113,16 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Objetivo de la imagen",
+      "name": "MONEDA 1",
       "imageTarget": {
-        "name": "monedaAR_1-3"
+        "name": "monARdef_1"
       },
-      "order": 2.9456547697503703
+      "order": 10.944063232756742
     },
-    "e44c4d4b-64a5-4104-b27a-21bb47fa706e": {
-      "id": "e44c4d4b-64a5-4104-b27a-21bb47fa706e",
+    "9dd8560a-3162-4bdd-beb6-6b5db6ec210a": {
+      "id": "9dd8560a-3162-4bdd-beb6-6b5db6ec210a",
       "position": [
-        -5.145293185988148,
+        1.6603529443501757,
         0,
         0
       ],
@@ -140,17 +140,17 @@
       "geometry": null,
       "material": null,
       "components": {},
-      "name": "Objetivo de la imagen (1)",
+      "name": "MONEDA 2",
       "imageTarget": {
-        "name": "monedaAR_2-3"
+        "name": "monARdef_2"
       },
-      "order": 4.228547019840687,
+      "order": 12.54753683489426,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f": {
-      "id": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f",
+    "bd01e7df-bf50-4e93-8a4e-fb328e5405c7": {
+      "id": "bd01e7df-bf50-4e93-8a4e-fb328e5405c7",
       "position": [
-        -3.0296698643044326,
+        3.0866473315922334,
         0,
         0
       ],
@@ -168,17 +168,17 @@
       "geometry": null,
       "material": null,
       "components": {},
-      "name": "Objetivo de la imagen (2)",
+      "name": "MONEDA 3",
       "imageTarget": {
-        "name": "monedaAR_3-3"
+        "name": "monARdef_3"
       },
-      "order": 5.626108733231497,
+      "order": 13.611303378189213,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa": {
-      "id": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa",
+    "840ff212-0276-48b5-97fd-62f66030d103": {
+      "id": "840ff212-0276-48b5-97fd-62f66030d103",
       "position": [
-        0.6108251209998674,
+        4.506397547302195,
         0,
         0
       ],
@@ -196,17 +196,17 @@
       "geometry": null,
       "material": null,
       "components": {},
-      "name": "Objetivo de la imagen (3)",
+      "name": "MONEDA 4",
       "imageTarget": {
-        "name": "monedaAR_4-3"
+        "name": "monARdef_4"
       },
-      "order": 7.403743283857524,
+      "order": 14.784598330001309,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "9441996b-3976-4ead-8cb4-c355fcc8c508": {
-      "id": "9441996b-3976-4ead-8cb4-c355fcc8c508",
+    "45ecfbf7-ec14-40ff-bd02-0bbda85b112d": {
+      "id": "45ecfbf7-ec14-40ff-bd02-0bbda85b112d",
       "position": [
-        2.5617903601018197,
+        5.984706234522502,
         0,
         0
       ],
@@ -224,19 +224,19 @@
       "geometry": null,
       "material": null,
       "components": {},
-      "name": "Objetivo de la imagen (4)",
+      "name": "MONEDA 5",
       "imageTarget": {
-        "name": "monedaAR_5-4"
+        "name": "monARdef_5"
       },
-      "order": 9.120803961239698,
+      "order": 16.39012281838191,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "14f49924-9188-40dd-b189-1656bb7c1f41": {
-      "id": "14f49924-9188-40dd-b189-1656bb7c1f41",
+    "c4a7ed90-fe2f-44d9-b49b-640add81c87b": {
+      "id": "c4a7ed90-fe2f-44d9-b49b-640add81c87b",
       "position": [
-        -3.9897774521030023,
+        0.17313249884087156,
         0,
-        0.40790658732060936
+        0.6483119873244929
       ],
       "rotation": [
         0,
@@ -246,8 +246,8 @@
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000532124818,
+        1.0000000532124818
       ],
       "geometry": {
         "type": "plane",
@@ -256,20 +256,19 @@
       },
       "material": {
         "type": "basic",
-        "color": "#da2b2b"
+        "color": "#d22d2d"
       },
-      "parentId": "8d798322-8781-40bf-bf68-7fa8532cba5e",
+      "parentId": "7a28ea4b-ff2b-488e-b5c2-59576b57bbb6",
       "components": {},
       "name": "Plano",
-      "order": 10.932156868492058,
-      "hidden": false
+      "order": 17.953590590731764
     },
-    "ae3d6324-9356-44d3-9f36-9d78abdcda15": {
-      "id": "ae3d6324-9356-44d3-9f36-9d78abdcda15",
+    "de68cac5-b4b4-4f7b-94e6-5c4311cf54a4": {
+      "id": "de68cac5-b4b4-4f7b-94e6-5c4311cf54a4",
       "position": [
-        2.166229021910588,
+        0.0881009524751366,
         0,
-        0.40790658732060936
+        0.6483119873244929
       ],
       "rotation": [
         0,
@@ -279,8 +278,8 @@
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000532124818,
+        1.0000000532124818
       ],
       "geometry": {
         "type": "plane",
@@ -289,20 +288,19 @@
       },
       "material": {
         "type": "basic",
-        "color": "#d51ab3"
+        "color": "#e935da"
       },
       "components": {},
       "name": "Plano (1)",
-      "order": 12.68200780805958,
-      "parentId": "e44c4d4b-64a5-4104-b27a-21bb47fa706e",
-      "hidden": false
+      "order": 19.86457659108161,
+      "parentId": "9dd8560a-3162-4bdd-beb6-6b5db6ec210a"
     },
-    "52c48997-4cdf-45ff-93e5-8763d80ad1bf": {
-      "id": "52c48997-4cdf-45ff-93e5-8763d80ad1bf",
+    "0439f5db-50de-496a-916e-8bef9cd0359b": {
+      "id": "0439f5db-50de-496a-916e-8bef9cd0359b",
       "position": [
-        1.8918069792991679,
+        0.016915502022440965,
         0,
-        0.40790658732060936
+        0.6483119873244929
       ],
       "rotation": [
         0,
@@ -312,8 +310,8 @@
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000532124818,
+        1.0000000532124818
       ],
       "geometry": {
         "type": "plane",
@@ -322,20 +320,19 @@
       },
       "material": {
         "type": "basic",
-        "color": "#4127c4"
+        "color": "#4a40ce"
       },
       "components": {},
       "name": "Plano (2)",
-      "order": 13.964600338436458,
-      "parentId": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f",
-      "hidden": false
+      "order": 20.981812413792674,
+      "parentId": "bd01e7df-bf50-4e93-8a4e-fb328e5405c7"
     },
-    "a67ccf6c-edd1-41c1-8ed0-98962cdb6ae8": {
-      "id": "a67ccf6c-edd1-41c1-8ed0-98962cdb6ae8",
+    "08b72501-f760-42b2-a112-266bf5108740": {
+      "id": "08b72501-f760-42b2-a112-266bf5108740",
       "position": [
-        -0.03283570410938741,
+        1.3027343438253047,
         0,
-        0.40790658732060936
+        0.6483119873244929
       ],
       "rotation": [
         0,
@@ -345,8 +342,8 @@
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000532124818,
+        1.0000000532124818
       ],
       "geometry": {
         "type": "plane",
@@ -355,20 +352,19 @@
       },
       "material": {
         "type": "basic",
-        "color": "#1fb2a8"
+        "color": "#31c4c1"
       },
       "components": {},
       "name": "Plano (3)",
-      "order": 15.647676116742684,
-      "parentId": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa",
-      "hidden": false
+      "order": 22.979289796104318,
+      "parentId": "bd01e7df-bf50-4e93-8a4e-fb328e5405c7"
     },
-    "4cfc2fed-01a3-4f8b-a7f7-fd5ec8ef0b61": {
-      "id": "4cfc2fed-01a3-4f8b-a7f7-fd5ec8ef0b61",
+    "1257b2c9-4aef-4993-893a-a031bf4b4cf6": {
+      "id": "1257b2c9-4aef-4993-893a-a031bf4b4cf6",
       "position": [
-        0.03829292287309727,
-        0.04943318342177894,
-        0.40790658732060936
+        -0.13852408559819818,
+        0,
+        0.6483119873244929
       ],
       "rotation": [
         0,
@@ -378,8 +374,8 @@
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000532124818,
+        1.0000000532124818
       ],
       "geometry": {
         "type": "plane",
@@ -388,13 +384,12 @@
       },
       "material": {
         "type": "basic",
-        "color": "#3ac21e"
+        "color": "#45ca2b"
       },
       "components": {},
       "name": "Plano (4)",
-      "order": 17.395017785098577,
-      "parentId": "9441996b-3976-4ead-8cb4-c355fcc8c508",
-      "hidden": false
+      "order": 24.182147418943014,
+      "parentId": "45ecfbf7-ec14-40ff-bd02-0bbda85b112d"
     }
   },
   "spaces": {
