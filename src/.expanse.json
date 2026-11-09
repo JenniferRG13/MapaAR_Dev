@@ -115,7 +115,7 @@
       "components": {},
       "name": "Objetivo de la imagen",
       "imageTarget": {
-        "name": "monedaAR_3-2"
+        "name": "monedaAR_1-3"
       },
       "order": 2.9456547697503703
     },
@@ -142,7 +142,7 @@
       "components": {},
       "name": "Objetivo de la imagen (1)",
       "imageTarget": {
-        "name": "monedaAR_1-1"
+        "name": "monedaAR_2-3"
       },
       "order": 4.228547019840687,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
@@ -170,7 +170,7 @@
       "components": {},
       "name": "Objetivo de la imagen (2)",
       "imageTarget": {
-        "name": "monedaAR_2-2"
+        "name": "monedaAR_3-3"
       },
       "order": 5.626108733231497,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
@@ -198,7 +198,7 @@
       "components": {},
       "name": "Objetivo de la imagen (3)",
       "imageTarget": {
-        "name": "monedaAR_4-2"
+        "name": "monedaAR_4-3"
       },
       "order": 7.403743283857524,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
@@ -226,7 +226,7 @@
       "components": {},
       "name": "Objetivo de la imagen (4)",
       "imageTarget": {
-        "name": "monedaAR_5-3"
+        "name": "monedaAR_5-4"
       },
       "order": 9.120803961239698,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
