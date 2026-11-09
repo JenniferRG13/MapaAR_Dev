@@ -28,53 +28,14 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0,
-        0.5,
-        -4.721554304399662
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -83,20 +44,20 @@
       "material": null,
       "name": "Camera",
       "position": [
-        0,
-        2,
-        3
+        0.3177448263482576,
+        1.9999999999999998,
+        0.12548105255152242
       ],
       "rotation": [
-        0.0004436887233141012,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        0.0004705161978603681,
+        -0.6956859054159452,
+        0.7183440545481898,
+        -0.0016489133910979833
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.9999999999999998,
+        1.0000000000000004,
+        1.0000000000000002
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -130,18 +91,18 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "e155faa9-874e-456a-a56b-5ff0e1ecc0fd": {
-      "id": "e155faa9-874e-456a-a56b-5ff0e1ecc0fd",
+    "39eef7ab-1ed4-49b3-88cb-2c9aaf1b7847": {
+      "id": "39eef7ab-1ed4-49b3-88cb-2c9aaf1b7847",
       "position": [
+        -6.207905419055815,
         0,
-        0.44858988266742617,
         0
       ],
       "rotation": [
-        0.713250449154182,
-        5.559620673285012e-17,
-        -2.6311279104532112e-17,
-        -0.7009092642998512
+        0,
+        0,
+        0,
+        1
       ],
       "scale": [
         1,
@@ -150,18 +111,30 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Objetivo de la imagen",
-      "imageTarget": {
-        "name": "mapaAR"
+      "components": {
+        "4847b823-25de-48ec-84fb-897fcfa994f5": {
+          "id": "4847b823-25de-48ec-84fb-897fcfa994f5",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "39eef7ab-1ed4-49b3-88cb-2c9aaf1b7847"
+            },
+            "activateOnClick": false
+          }
+        }
       },
-      "order": 3.0064134199461288
+      "name": "Objetivo de la imagen (1)",
+      "imageTarget": {
+        "name": "monedaAR_1"
+      },
+      "order": 4.2452085314816825,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "dd9a0152-a886-4038-9849-24f542ae492c": {
-      "id": "dd9a0152-a886-4038-9849-24f542ae492c",
+    "bf81a470-e2cd-42fa-8510-83fc79b6c0c8": {
+      "id": "bf81a470-e2cd-42fa-8510-83fc79b6c0c8",
       "position": [
-        0,
+        -3.766382699459281,
         0,
         0
       ],
@@ -178,28 +151,163 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "e155faa9-874e-456a-a56b-5ff0e1ecc0fd",
-      "components": {},
-      "name": "mapaAR.jpg",
-      "order": 1.276491641526822
+      "components": {
+        "49d7adb5-fb8d-44a4-9f37-f5256f3ce6a4": {
+          "id": "49d7adb5-fb8d-44a4-9f37-f5256f3ce6a4",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "bf81a470-e2cd-42fa-8510-83fc79b6c0c8"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
+      "name": "Objetivo de la imagen (2)",
+      "imageTarget": {
+        "name": "monedaAR_2"
+      },
+      "order": 5.8535663363840245,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "3a797cbe-495a-438d-8673-23cedc724572": {
-      "id": "3a797cbe-495a-438d-8673-23cedc724572",
+    "8599da62-f373-4d31-a849-f3f696ce1938": {
+      "id": "8599da62-f373-4d31-a849-f3f696ce1938",
       "position": [
-        -0.0002661180546539299,
-        0.8242241882598793,
-        -0.053460886016610754
+        -1.3469363851648488,
+        0,
+        0
       ],
       "rotation": [
-        -0.707106799999999,
         0,
         0,
-        0.7071067623730954
+        0,
+        1
       ],
       "scale": [
-        0.5000000000000001,
-        0.5000000266062408,
-        0.5000000266062408
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "6cc47a94-276a-47f7-9f2c-a1e3cf875e9b": {
+          "id": "6cc47a94-276a-47f7-9f2c-a1e3cf875e9b",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "8599da62-f373-4d31-a849-f3f696ce1938"
+            }
+          }
+        }
+      },
+      "name": "Objetivo de la imagen (3)",
+      "imageTarget": {
+        "name": "monedaAR_3"
+      },
+      "order": 7.429537514337204,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "7a5ffda1-8c23-4939-9fc4-3e2d3969969f": {
+      "id": "7a5ffda1-8c23-4939-9fc4-3e2d3969969f",
+      "position": [
+        1.2057375082291044,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "43fa7b12-c4df-43ae-855e-fda59a14230a": {
+          "id": "43fa7b12-c4df-43ae-855e-fda59a14230a",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "7a5ffda1-8c23-4939-9fc4-3e2d3969969f"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
+      "name": "Objetivo de la imagen (4)",
+      "imageTarget": {
+        "name": "monedaAR_4"
+      },
+      "order": 8.677340345898722,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "2917cd13-f4f4-4c08-9e24-9d510c1cf2bc": {
+      "id": "2917cd13-f4f4-4c08-9e24-9d510c1cf2bc",
+      "position": [
+        3.6592272139844075,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "dd68c893-4127-43b9-aa42-74f23d0b9225": {
+          "id": "dd68c893-4127-43b9-aa42-74f23d0b9225",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "2917cd13-f4f4-4c08-9e24-9d510c1cf2bc"
+            }
+          }
+        }
+      },
+      "name": "Objetivo de la imagen (5)",
+      "imageTarget": {
+        "name": "monedaAR_5"
+      },
+      "order": 10.016884870283324,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "63ffd098-2070-43f9-871d-7ae6ab936521": {
+      "id": "63ffd098-2070-43f9-871d-7ae6ab936521",
+      "position": [
+        0.0539623261349389,
+        0,
+        0.6632276882056776
+      ],
+      "rotation": [
+        0.008726535962699157,
+        0,
+        0,
+        0.9999619230601192
+      ],
+      "scale": [
+        1,
+        1.0000000000081044,
+        1.0000000000081044
       ],
       "geometry": {
         "type": "plane",
@@ -208,16 +316,145 @@
       },
       "material": {
         "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/postal1.jpg"
-        }
+        "color": "#a33333",
+        "emissiveColor": "#ffffff"
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "39eef7ab-1ed4-49b3-88cb-2c9aaf1b7847",
       "components": {},
       "name": "Plano",
-      "order": 6.976541391530013
+      "order": 11.03172344455358
+    },
+    "bf89818a-3c84-44de-acea-83ef3179f9ad": {
+      "id": "bf89818a-3c84-44de-acea-83ef3179f9ad",
+      "position": [
+        0.1181739648975988,
+        0,
+        0.6632276882056776
+      ],
+      "rotation": [
+        0.008726535962699157,
+        0,
+        0,
+        0.9999619230601192
+      ],
+      "scale": [
+        1,
+        1.0000000000081044,
+        1.0000000000081044
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#a33394",
+        "emissiveColor": "#ffffff"
+      },
+      "components": {},
+      "name": "Plano (1)",
+      "order": 12.598892691423321,
+      "parentId": "bf81a470-e2cd-42fa-8510-83fc79b6c0c8"
+    },
+    "1faf1f34-e048-44e2-ab9d-74c346fcf23a": {
+      "id": "1faf1f34-e048-44e2-ab9d-74c346fcf23a",
+      "position": [
+        0.02504029201093827,
+        0,
+        0.6632276882056776
+      ],
+      "rotation": [
+        0.008726535962699157,
+        0,
+        0,
+        0.9999619230601192
+      ],
+      "scale": [
+        1,
+        1.0000000000081044,
+        1.0000000000081044
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#4033a3",
+        "emissiveColor": "#ffffff"
+      },
+      "components": {},
+      "name": "Plano (2)",
+      "order": 13.95601878957931,
+      "parentId": "8599da62-f373-4d31-a849-f3f696ce1938"
+    },
+    "84b48094-a488-4f43-8161-41eecd70ea43": {
+      "id": "84b48094-a488-4f43-8161-41eecd70ea43",
+      "position": [
+        -0.11826996958526803,
+        0,
+        0.6632276882056776
+      ],
+      "rotation": [
+        0.008726535962699157,
+        0,
+        0,
+        0.9999619230601192
+      ],
+      "scale": [
+        1,
+        1.0000000000081044,
+        1.0000000000081044
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#3396a3",
+        "emissiveColor": "#ffffff"
+      },
+      "components": {},
+      "name": "Plano (3)",
+      "order": 15.905980836502664,
+      "parentId": "7a5ffda1-8c23-4939-9fc4-3e2d3969969f"
+    },
+    "b5d799f8-b0b3-43ef-857a-07924efaa242": {
+      "id": "b5d799f8-b0b3-43ef-857a-07924efaa242",
+      "position": [
+        2.217989251646191,
+        0,
+        0.6632276882056776
+      ],
+      "rotation": [
+        0.008726535962699157,
+        0,
+        0,
+        0.9999619230601192
+      ],
+      "scale": [
+        1,
+        1.0000000000081044,
+        1.0000000000081044
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#3ba333",
+        "emissiveColor": "#ffffff"
+      },
+      "components": {},
+      "name": "Plano (4)",
+      "order": 17.1385843167818,
+      "parentId": "7a5ffda1-8c23-4939-9fc4-3e2d3969969f"
     }
   },
   "spaces": {

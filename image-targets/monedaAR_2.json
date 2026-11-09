@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 562,
+    "width": 3375,
+    "height": 4501,
+    "isRotated": false,
+    "originalWidth": 4501,
+    "originalHeight": 4501
+  },
+  "imagePath": "image-targets/monedaAR_2_luminance.png",
+  "metadata": null,
+  "name": "monedaAR_2",
+  "resources": {
+    "originalImage": "monedaAR_2_original.png",
+    "croppedImage": "monedaAR_2_cropped.png",
+    "thumbnailImage": "monedaAR_2_thumbnail.png",
+    "luminanceImage": "monedaAR_2_luminance.png"
+  },
+  "created": 1794237173974,
+  "updated": 1794237173974
+}
