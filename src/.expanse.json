@@ -112,19 +112,7 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "826b2d27-defd-403a-a915-e192f006663f": {
-          "id": "826b2d27-defd-403a-a915-e192f006663f",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "activateOnClick": false,
-            "targetEntity": {
-              "type": "entity",
-              "id": "52c48997-4cdf-45ff-93e5-8763d80ad1bf"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Objetivo de la imagen",
       "imageTarget": {
         "name": "monedaAR_3-2"
@@ -151,19 +139,7 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "e472bb18-54ef-4757-8fcd-1eeea9615c70": {
-          "id": "e472bb18-54ef-4757-8fcd-1eeea9615c70",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "activateOnClick": false,
-            "targetEntity": {
-              "type": "entity",
-              "id": "14f49924-9188-40dd-b189-1656bb7c1f41"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Objetivo de la imagen (1)",
       "imageTarget": {
         "name": "monedaAR_1-1"
@@ -191,19 +167,7 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "6f8d865c-fd57-43d8-b20f-452e27d57e64": {
-          "id": "6f8d865c-fd57-43d8-b20f-452e27d57e64",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "targetEntity": {
-              "type": "entity",
-              "id": "ae3d6324-9356-44d3-9f36-9d78abdcda15"
-            },
-            "activateOnClick": false
-          }
-        }
-      },
+      "components": {},
       "name": "Objetivo de la imagen (2)",
       "imageTarget": {
         "name": "monedaAR_2-2"
@@ -231,19 +195,7 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "5a2c23fa-9fe6-479d-b3b4-17d833d1d007": {
-          "id": "5a2c23fa-9fe6-479d-b3b4-17d833d1d007",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "targetEntity": {
-              "type": "entity",
-              "id": "a67ccf6c-edd1-41c1-8ed0-98962cdb6ae8"
-            },
-            "activateOnClick": false
-          }
-        }
-      },
+      "components": {},
       "name": "Objetivo de la imagen (3)",
       "imageTarget": {
         "name": "monedaAR_4-2"
@@ -271,19 +223,7 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "2891764f-e77b-4c8e-8d51-24f1ecbaead6": {
-          "id": "2891764f-e77b-4c8e-8d51-24f1ecbaead6",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "activateOnClick": false,
-            "targetEntity": {
-              "type": "entity",
-              "id": "4cfc2fed-01a3-4f8b-a7f7-fd5ec8ef0b61"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Objetivo de la imagen (4)",
       "imageTarget": {
         "name": "monedaAR_5-3"
@@ -319,21 +259,10 @@
         "color": "#da2b2b"
       },
       "parentId": "8d798322-8781-40bf-bf68-7fa8532cba5e",
-      "components": {
-        "0da8edda-8365-4eca-bfe8-eaeac3cb0eaf": {
-          "id": "0da8edda-8365-4eca-bfe8-eaeac3cb0eaf",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "targetEntity": {
-              "type": "entity",
-              "id": "8d798322-8781-40bf-bf68-7fa8532cba5e"
-            },
-            "activateOnClick": false
-          }
-        }
-      },
+      "components": {},
       "name": "Plano",
-      "order": 10.932156868492058
+      "order": 10.932156868492058,
+      "hidden": false
     },
     "ae3d6324-9356-44d3-9f36-9d78abdcda15": {
       "id": "ae3d6324-9356-44d3-9f36-9d78abdcda15",
@@ -362,27 +291,16 @@
         "type": "basic",
         "color": "#d51ab3"
       },
-      "components": {
-        "62ea2a95-28b2-4b5d-a95b-340155b2739c": {
-          "id": "62ea2a95-28b2-4b5d-a95b-340155b2739c",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "targetEntity": {
-              "type": "entity",
-              "id": "e44c4d4b-64a5-4104-b27a-21bb47fa706e"
-            },
-            "activateOnClick": false
-          }
-        }
-      },
+      "components": {},
       "name": "Plano (1)",
       "order": 12.68200780805958,
-      "parentId": "e44c4d4b-64a5-4104-b27a-21bb47fa706e"
+      "parentId": "e44c4d4b-64a5-4104-b27a-21bb47fa706e",
+      "hidden": false
     },
     "52c48997-4cdf-45ff-93e5-8763d80ad1bf": {
       "id": "52c48997-4cdf-45ff-93e5-8763d80ad1bf",
       "position": [
-        1.9279030553359666,
+        1.8918069792991679,
         0,
         0.40790658732060936
       ],
@@ -406,22 +324,11 @@
         "type": "basic",
         "color": "#4127c4"
       },
-      "components": {
-        "758778b4-0d5d-4354-b4b7-f7768d95c149": {
-          "id": "758778b4-0d5d-4354-b4b7-f7768d95c149",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "activateOnClick": false,
-            "targetEntity": {
-              "type": "entity",
-              "id": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Plano (2)",
       "order": 13.964600338436458,
-      "parentId": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f"
+      "parentId": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f",
+      "hidden": false
     },
     "a67ccf6c-edd1-41c1-8ed0-98962cdb6ae8": {
       "id": "a67ccf6c-edd1-41c1-8ed0-98962cdb6ae8",
@@ -450,28 +357,17 @@
         "type": "basic",
         "color": "#1fb2a8"
       },
-      "components": {
-        "15e1d542-2ee0-4cd5-8630-c9db717bef9d": {
-          "id": "15e1d542-2ee0-4cd5-8630-c9db717bef9d",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "activateOnClick": false,
-            "targetEntity": {
-              "type": "entity",
-              "id": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Plano (3)",
       "order": 15.647676116742684,
-      "parentId": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa"
+      "parentId": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa",
+      "hidden": false
     },
     "4cfc2fed-01a3-4f8b-a7f7-fd5ec8ef0b61": {
       "id": "4cfc2fed-01a3-4f8b-a7f7-fd5ec8ef0b61",
       "position": [
         0.03829292287309727,
-        0,
+        0.04943318342177894,
         0.40790658732060936
       ],
       "rotation": [
@@ -494,22 +390,11 @@
         "type": "basic",
         "color": "#3ac21e"
       },
-      "components": {
-        "cb588611-cef4-4fbb-a38b-43bce0eda68a": {
-          "id": "cb588611-cef4-4fbb-a38b-43bce0eda68a",
-          "name": "Entity Toggle Button",
-          "parameters": {
-            "activateOnClick": false,
-            "targetEntity": {
-              "type": "entity",
-              "id": "9441996b-3976-4ead-8cb4-c355fcc8c508"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Plano (4)",
       "order": 17.395017785098577,
-      "parentId": "9441996b-3976-4ead-8cb4-c355fcc8c508"
+      "parentId": "9441996b-3976-4ead-8cb4-c355fcc8c508",
+      "hidden": false
     }
   },
   "spaces": {
