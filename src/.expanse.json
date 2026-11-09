@@ -112,7 +112,19 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "826b2d27-defd-403a-a915-e192f006663f": {
+          "id": "826b2d27-defd-403a-a915-e192f006663f",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "52c48997-4cdf-45ff-93e5-8763d80ad1bf"
+            }
+          }
+        }
+      },
       "name": "Objetivo de la imagen",
       "imageTarget": {
         "name": "monedaAR_3-2"
@@ -139,7 +151,19 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "e472bb18-54ef-4757-8fcd-1eeea9615c70": {
+          "id": "e472bb18-54ef-4757-8fcd-1eeea9615c70",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "14f49924-9188-40dd-b189-1656bb7c1f41"
+            }
+          }
+        }
+      },
       "name": "Objetivo de la imagen (1)",
       "imageTarget": {
         "name": "monedaAR_1-1"
@@ -167,7 +191,19 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "6f8d865c-fd57-43d8-b20f-452e27d57e64": {
+          "id": "6f8d865c-fd57-43d8-b20f-452e27d57e64",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "ae3d6324-9356-44d3-9f36-9d78abdcda15"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
       "name": "Objetivo de la imagen (2)",
       "imageTarget": {
         "name": "monedaAR_2-2"
@@ -195,7 +231,19 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "5a2c23fa-9fe6-479d-b3b4-17d833d1d007": {
+          "id": "5a2c23fa-9fe6-479d-b3b4-17d833d1d007",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "a67ccf6c-edd1-41c1-8ed0-98962cdb6ae8"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
       "name": "Objetivo de la imagen (3)",
       "imageTarget": {
         "name": "monedaAR_4-2"
@@ -223,7 +271,19 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "2891764f-e77b-4c8e-8d51-24f1ecbaead6": {
+          "id": "2891764f-e77b-4c8e-8d51-24f1ecbaead6",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "4cfc2fed-01a3-4f8b-a7f7-fd5ec8ef0b61"
+            }
+          }
+        }
+      },
       "name": "Objetivo de la imagen (4)",
       "imageTarget": {
         "name": "monedaAR_5-3"
