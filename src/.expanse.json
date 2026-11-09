@@ -259,7 +259,19 @@
         "color": "#da2b2b"
       },
       "parentId": "8d798322-8781-40bf-bf68-7fa8532cba5e",
-      "components": {},
+      "components": {
+        "0da8edda-8365-4eca-bfe8-eaeac3cb0eaf": {
+          "id": "0da8edda-8365-4eca-bfe8-eaeac3cb0eaf",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "8d798322-8781-40bf-bf68-7fa8532cba5e"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
       "name": "Plano",
       "order": 10.932156868492058
     },
@@ -290,7 +302,19 @@
         "type": "basic",
         "color": "#d51ab3"
       },
-      "components": {},
+      "components": {
+        "62ea2a95-28b2-4b5d-a95b-340155b2739c": {
+          "id": "62ea2a95-28b2-4b5d-a95b-340155b2739c",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "e44c4d4b-64a5-4104-b27a-21bb47fa706e"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
       "name": "Plano (1)",
       "order": 12.68200780805958,
       "parentId": "e44c4d4b-64a5-4104-b27a-21bb47fa706e"
@@ -322,7 +346,19 @@
         "type": "basic",
         "color": "#4127c4"
       },
-      "components": {},
+      "components": {
+        "758778b4-0d5d-4354-b4b7-f7768d95c149": {
+          "id": "758778b4-0d5d-4354-b4b7-f7768d95c149",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f"
+            }
+          }
+        }
+      },
       "name": "Plano (2)",
       "order": 13.964600338436458,
       "parentId": "0fffbe5d-8c4d-467a-b3d7-b1b0246be21f"
@@ -354,7 +390,19 @@
         "type": "basic",
         "color": "#1fb2a8"
       },
-      "components": {},
+      "components": {
+        "15e1d542-2ee0-4cd5-8630-c9db717bef9d": {
+          "id": "15e1d542-2ee0-4cd5-8630-c9db717bef9d",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa"
+            }
+          }
+        }
+      },
       "name": "Plano (3)",
       "order": 15.647676116742684,
       "parentId": "70ed40a0-d2a5-41dd-9cc4-a59fad97fbfa"
@@ -386,7 +434,19 @@
         "type": "basic",
         "color": "#3ac21e"
       },
-      "components": {},
+      "components": {
+        "cb588611-cef4-4fbb-a38b-43bce0eda68a": {
+          "id": "cb588611-cef4-4fbb-a38b-43bce0eda68a",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "activateOnClick": false,
+            "targetEntity": {
+              "type": "entity",
+              "id": "9441996b-3976-4ead-8cb4-c355fcc8c508"
+            }
+          }
+        }
+      },
       "name": "Plano (4)",
       "order": 17.395017785098577,
       "parentId": "9441996b-3976-4ead-8cb4-c355fcc8c508"
